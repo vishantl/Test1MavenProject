@@ -24,7 +24,7 @@ public class WebDriverforGitHub {
 		driver.get("http://gmail.com");		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5L, TimeUnit.SECONDS);
-		driver.findElement(By.name("identifier"));
+		driver.findElement(By.name("identifier")).sendKeys("vishantl29@gmail.com");;
 		driver.findElement(By.xpath("//*[@id='identifierNext']/span/span"));
 		
 	}
